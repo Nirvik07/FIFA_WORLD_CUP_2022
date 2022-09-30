@@ -15,8 +15,13 @@ Everyone can contribute in this repo by making webpages and designing the fixtur
 - CSS
 - JS
 
-# PROJECT ADMIN
-![WhatsApp Image 2022-08-31 at 12 59 06 AM](https://user-images.githubusercontent.com/97960335/193214283-458ce945-deb9-417e-b947-85ac6ba681d9.jpeg)
+<h2>Project Admin</h2>
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/Nirvik07"><img src="https://avatars.githubusercontent.com/u/97960335?v=4" width="80px;" alt=""/><br /><sub><b>Abhishek Sharma</b></sub></a></td>
+  </tr>
+</table>
 
 
 <h3 align="left">Connect with me:</h3>
