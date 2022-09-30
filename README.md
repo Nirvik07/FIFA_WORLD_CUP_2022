@@ -19,7 +19,7 @@ Everyone can contribute in this repo by making webpages and designing the fixtur
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/Nirvik07"><img src="https://avatars.githubusercontent.com/u/97960335?v=4" width="80px;" alt=""/><br /><sub><b>Abhishek Sharma</b></sub></a></td>
+<td align="center"><a href="https://github.com/Nirvik07"><img src="https://avatars.githubusercontent.com/u/97960335?v=4" width="80px;" alt=""/><br /><sub><b>Nirvik Ghosh</b></sub></a></td>
   </tr>
 </table>
 
