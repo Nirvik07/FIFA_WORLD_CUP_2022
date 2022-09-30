@@ -4,7 +4,7 @@ Welcome to the FIFA WORLD CUP 2022 Repository. This repo is open for contributio
 
 # How to conribute in this Repo:
 
-- First of all , if you are contributing first time in this repo , you need to fill out this Google form.
+- First of all , if you are contributing first time in this repo , you need to fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSdQF0qpTrer4YOvztbbhl823CcLPyZ4BRZlHANUG3PlKGEzng/viewform).
 - Next, choose an issue of your convenience.
 - while taking an issue, you should follow [issue_template](.github/ISSUE_TEMPLATE/issue-template.md)
 - After got assign, start working on your issue.
