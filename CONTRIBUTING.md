@@ -11,7 +11,9 @@ Welcome to the FIFA WORLD CUP 2022 Repository. This repo is open for contributio
 
 # PR CREATIONS:
 - Fork this repo and clone the forked repo to your local machine using Git Bash.
-git clone https://github.com/Abbhiishek/Webners.git
+```markdown
+git clone https://github.com/Nirvik07/FIFA_WORLD_CUP_2022.git
+```
 - Create a branch
 git checkout - b <branch-name>
 - make your changes and commit the changes
