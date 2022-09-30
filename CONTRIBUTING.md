@@ -8,3 +8,16 @@ Welcome to the FIFA WORLD CUP 2022 Repository. This repo is open for contributio
 - Next, choose an issue of your convenience.
 - while taking an issue, you should follow issue_template.md
 - After got assign, start working on your issue.
+
+# PR CREATIONS:
+- Fork this repo and clone the forked repo to your local machine using Git Bash.
+git clone https://github.com/Abbhiishek/Webners.git
+- Create a branch
+git checkout - b <branch-name>
+- make your changes and commit the changes
+git add .
+git commit -m '<Commit message>'
+git push origin <branch-name>
+- Create a PR from your forked repository.
+- Wait for the Maintainer to merge.
+- Star this repo, if you like this and have fun in contributing this repo.
