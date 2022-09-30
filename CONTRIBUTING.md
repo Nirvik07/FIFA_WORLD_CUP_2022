@@ -15,11 +15,15 @@ Welcome to the FIFA WORLD CUP 2022 Repository. This repo is open for contributio
 git clone https://github.com/Nirvik07/FIFA_WORLD_CUP_2022.git
 ```
 - Create a branch
+```markdown
 git checkout - b <branch-name>
+```
 - make your changes and commit the changes
+```markdown
 git add .
 git commit -m '<Commit message>'
 git push origin <branch-name>
+```
 - Create a PR from your forked repository.
 - Wait for the Maintainer to merge.
 - Star this repo, if you like this and have fun in contributing this repo.
