@@ -14,3 +14,15 @@ Everyone can contribute in this repo by making webpages and designing the fixtur
 - HTML
 - CSS
 - JS
+
+# PROJECT ADMIN
+![WhatsApp Image 2022-08-31 at 12 59 06 AM](https://user-images.githubusercontent.com/97960335/193214283-458ce945-deb9-417e-b947-85ac6ba681d9.jpeg)
+
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/nirvikghosh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nirvikghosh" height="30" width="40" /></a>
+<a href="https://kaggle.com/nirvik07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="nirvik07" height="30" width="40" /></a>
+<a href="https://instagram.com/g.nirvik" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="g.nirvik" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/https://www.youtube.com/channel/ucvatceszw8trot7iyuoydkq" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucvatceszw8trot7iyuoydkq" height="30" width="40" /></a>
+</p>
