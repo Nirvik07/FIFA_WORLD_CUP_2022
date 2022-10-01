@@ -13,7 +13,7 @@ Everyone can contribute in this repo by making webpages and designing the fixtur
 # TeckStacks for this Repo:
 - HTML
 - CSS
-- JS
+- Javascript
 
 <h2>Project Admin</h2>
 
