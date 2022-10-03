@@ -3,18 +3,30 @@
   <head>
     <title>Occasional Medical Dolphin</title>
     <meta property="og:title" content="Occasional Medical Dolphin" />
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
 
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
-        font-family: Inter;
+        font-family: 'Monsterrat',sans-serif;
         font-size: 16px;
       }
 
       body {
         font-weight: 400;
+        font-family: 'Montserrat',sans-serif;
         font-style:normal;
         text-decoration: none;
         text-transform: none;
@@ -23,6 +35,9 @@
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
 
+      }
+      h1,h2,h3{
+        font-family: 'Montserrat',sans-serif;
       }
     </style>
     <link
@@ -39,13 +54,42 @@
       <link href="./home.css" rel="stylesheet" />
 
       <div class="home-container">
-        <header data-role="Header" class="home-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="">
+            <img src="public/playground_assets/picture3-200w.png" alt="logo" height="80px">
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Venues</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Schedule</a>
+              </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+        <!-- <header data-role="Header" class="home-header">
           <img
             alt="logo"
             src="public/playground_assets/picture3-200w.png"
             class="home-image"
-          />
-          <div class="home-nav">
+          /> -->
+          <!-- <div class="home-nav">
             <nav
               class="navigation-links-nav navigation-links-root-class-name15"
             >
@@ -70,8 +114,8 @@
                 d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
               ></path>
             </svg>
-          </div>
-          <div data-type="BurgerMenu" class="home-burger-menu">
+          </div> -->
+          <!-- <div data-type="BurgerMenu" class="home-burger-menu">
             <svg viewBox="0 0 1024 1024" class="home-icon06">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -123,8 +167,8 @@
                 ></path>
               </svg>
             </div>
-          </div>
-        </header>
+          </div> -->
+        <!-- </header> -->
         <div class="home-hero">
           <div class="home-container2">
             <h1 class="home-text">FIFA WORLD CUP 2022</h1>
@@ -154,7 +198,7 @@
             class="home-image3"
           />
         </div>
-        <footer class="home-footer">
+        <!-- <footer class="home-footer">
           <img
             alt="logo"
             src="public/playground_assets/picture3-200w.png"
@@ -178,7 +222,7 @@
           </div>
         </footer>
       </div>
-    </div>
+    </div> -->
     <script
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"

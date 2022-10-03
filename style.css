@@ -34,6 +34,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
 }
+
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
@@ -42,6 +43,7 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+  font-family: 'Montserrat';
 }
 .input {
   color: var(--dl-color-gray-black);
