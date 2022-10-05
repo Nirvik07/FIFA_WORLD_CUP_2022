@@ -1,0 +1,34 @@
+.content-area {
+    margin-top: 20px;
+    padding-inline: 90px;
+}
+
+.content-heading-1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content-subheading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.content-paragraph {
+    line-height: 170%;
+}
+
+img {
+    width: 100%;
+}
+
+.img-div {
+    margin-inline: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.img-div-2 {
+    margin-inline: auto;
+    width: 60%;
+    margin-block: 10px;
+}
