@@ -17,6 +17,10 @@
   margin-left: var(--dl-space-space-twounits);
 }
 
+a {
+  font: 20px;
+}
+
 
 
 
