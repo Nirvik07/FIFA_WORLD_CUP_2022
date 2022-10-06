@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venues</title>
+    <link rel="venues" href="venues.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div>
+
+        <p style="font-size: 70px; text-align: center;">
+            FIFA World Cup 2022 venues: 
+            <br>
+            The eight Qatar venues which are going to host these matches!
+        </p>
+
+        <p style="font-size: 35px; text-align: center;">
+            FIFA World Cup 2022 coming to Qatar, The first Middle East's football megahit!
+            But beforehand, the venues were arranged. 
+            It is made sure that there were enough seats, foods and drinks.
+        </p>
+        <p style="font-size: 30px; text-align: center;">  
+        Let's look into the venues which are going to host FIFA world cup 2022.    
+        </p>
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/Lusail Iconic Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Al Bayt Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Khalifa International Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Al Janoub Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Ahmad Bin Ali Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Al Thumama Stadium.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Stadium 974.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/Education City Stadium.jpeg"></div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+        
+              </div>
+        </div>
+        <p style="font-size: 70px; text-align: center;">
+            FIFA World cup 2022 Qatar Venues:   
+        </p>
+        <br>
+        <div style="display: flex; justify-content:center; align-items:center">
+            <img src="Images/venues.png">
+        </div>
+        
+    </div>
+
+    <p style="font-size: 35px; text-align: center;">
+        The FIFA World Cup 2022 will be held in Qatar from November 20 to December 18.
+    </p>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction : false,
+            },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+
+
+</body>
+</html>
