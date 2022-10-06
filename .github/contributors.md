@@ -1,3 +1,5 @@
+# CONTRIBUTORS
+
 | NAME                                           | CONTRIBUTOR ROLE    | TOTAL NO. OF PRS | 
 | ---------------------------------------------- | ------------------- | ---------------- |
 | [Nazia Tasnim](https://github.com/appledora)   | HACKTOBERFEST 2022  |        1         |
