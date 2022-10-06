@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
         font-family: 'Monsterrat',sans-serif;
         font-size: 16px;
       }
-
+      .mySlides {display:none;}
       body {
         font-weight: 400;
         font-family: 'Montserrat',sans-serif;
@@ -184,11 +184,42 @@
               <button class="home-button1 button">SCHEDULE</button>
             </div>
           </div>
-          <img
-            alt="image"
-            src="../../public/playground_assets/0d5815259ae6a395605fe51fb0bad3a8fe928351-1200w.jpg"
-            class="home-image2"
-          />
+          
+          
+          <div class="w3-content w3-display-container">
+            <img class="mySlides" src="1.jpeg" style="width:100%">
+            <img class="mySlides" src="2.jpeg" style="width:100%">
+            <img class="mySlides" src="4.jpeg" style="width:100%">
+            <img class="mySlides" src="3.jpg" style="width:100%">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+            
+
+
+
+
         </div>
         <div class="home-hero1">
           <div class="home-container3">
